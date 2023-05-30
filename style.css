@@ -192,3 +192,68 @@ body {
 .footer a{
     color: #00aeef;
 }
+
+
+
+
+   /* Mobile Responsive Styles */
+   @media (max-width: 767px) {
+    /*.navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar .logo {
+        margin-bottom: 10px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }*/
+
+    
+
+    .navbar .menu li {
+        margin-left: 0;
+        margin-right: 7px;
+        padding: 5px;
+    }
+
+    .header-bg-container {
+        height: 300px;
+    }
+
+    .centered-heading {
+        font-size: 18px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .image {
+        padding-right: 0;
+    }
+
+    .about-content p {
+        text-align: center;
+    }
+
+    .service-content p {
+        padding: 0;
+    }
+
+    .web-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .column p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
